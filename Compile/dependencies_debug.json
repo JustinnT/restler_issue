@@ -1,0 +1,1864 @@
+[
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-nf-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-nf-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "requester-nf-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "requester-nf-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "requester-nf-instance-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "requester-nf-instance-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "service-names"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "service-names",
+        "ProducerParameterName": "names",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "pdu-session-types"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "pdu-session-types",
+        "ProducerParameterName": "types",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "requester-nf-instance-fqdn"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "requester-nf-instance-fqdn",
+        "ProducerParameterName": "fqdn",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "event-id-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "event-id-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-plmn-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-plmn-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "nwdaf-event-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "nwdaf-event-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "requester-plmn-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "requester-plmn-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "supported-features"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "supported-features",
+        "ProducerParameterName": "features",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-nf-instance-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-nf-instance-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "upf-iwk-eps-ind"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "upf-iwk-eps-ind",
+        "ProducerParameterName": "ind",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-nf-fqdn"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-nf-fqdn",
+        "ProducerParameterName": "fqdn",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "chf-supported-plmn"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "chf-supported-plmn",
+        "ProducerParameterName": "plmn",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "hnrf-uri"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "hnrf-uri",
+        "ProducerParameterName": "uri",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "preferred-locality"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "preferred-locality",
+        "ProducerParameterName": "locality",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "access-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "access-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "snssais"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "snssais",
+        "ProducerParameterName": "snssais",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "redundant-transport"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "redundant-transport",
+        "ProducerParameterName": "transport",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "requester-snssais"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "requester-snssais",
+        "ProducerParameterName": "snssais",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "plmn-specific-snssai-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "plmn-specific-snssai-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "smf-serving-area"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "smf-serving-area",
+        "ProducerParameterName": "area",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "dnn"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "dnn",
+        "ProducerParameterName": "dnn",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "tai"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "tai",
+        "ProducerParameterName": "tai",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "nsi-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "nsi-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "amf-region-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "amf-region-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "ue-ipv4-address"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "ue-ipv4-address",
+        "ProducerParameterName": "address",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "amf-set-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "amf-set-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "guami"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "guami",
+        "ProducerParameterName": "guami",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "ip-domain"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "ip-domain",
+        "ProducerParameterName": "domain",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "supi"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "supi",
+        "ProducerParameterName": "supi",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "ue-ipv6-prefix"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "ue-ipv6-prefix",
+        "ProducerParameterName": "prefix",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "lmf-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "lmf-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "pgw-ind"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "pgw-ind",
+        "ProducerParameterName": "ind",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "an-node-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "an-node-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "pgw"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "pgw",
+        "ProducerParameterName": "pgw",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "gpsi"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "gpsi",
+        "ProducerParameterName": "gpsi",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "rat-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "rat-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "preferred-tai"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "preferred-tai",
+        "ProducerParameterName": "tai",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "external-group-identity"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "external-group-identity",
+        "ProducerParameterName": "identity",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "preferred-nf-instances"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "preferred-nf-instances",
+        "ProducerParameterName": "instances",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "internal-group-identity"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "internal-group-identity",
+        "ProducerParameterName": "identity",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-snpn"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-snpn",
+        "ProducerParameterName": "snpn",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "pfd-data"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "pfd-data",
+        "ProducerParameterName": "data",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "af-ee-data"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "af-ee-data",
+        "ProducerParameterName": "data",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "data-set"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "data-set",
+        "ProducerParameterName": "set",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "w-agf-info"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "w-agf-info",
+        "ProducerParameterName": "info",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "routing-indicator"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "routing-indicator",
+        "ProducerParameterName": "indicator",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "tngf-info"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "tngf-info",
+        "ProducerParameterName": "info",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "group-id-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "group-id-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "twif-info"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "twif-info",
+        "ProducerParameterName": "info",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "dnai-list"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "dnai-list",
+        "ProducerParameterName": "list",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-nf-set-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-nf-set-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "target-nf-service-set-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "target-nf-service-set-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "nef-id"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "nef-id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "notification-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "notification-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "serving-scope"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "serving-scope",
+        "ProducerParameterName": "scope",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "imsi"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "imsi",
+        "ProducerParameterName": "imsi",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "preferred-api-versions"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "preferred-api-versions",
+        "ProducerParameterName": "versions",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "v2x-support-ind"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "v2x-support-ind",
+        "ProducerParameterName": "ind",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "redundant-gtpu"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "redundant-gtpu",
+        "ProducerParameterName": "gtpu",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "limit"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "limit",
+        "ProducerParameterName": "limit",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "required-features"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "required-features",
+        "ProducerParameterName": "features",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "complex-query"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "complex-query",
+        "ProducerParameterName": "query",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "max-payload-size"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "max-payload-size",
+        "ProducerParameterName": "size",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "atsss-capability"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "atsss-capability",
+        "ProducerParameterName": "capability",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "upf-ue-ip-addr-ind"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "upf-ue-ip-addr-ind",
+        "ProducerParameterName": "ind",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/nf-instances",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "client-type"
+        },
+        "ContainerName": "nf-instances",
+        "PathContainerName": "nf-instances",
+        "CandidateTypeNames": [
+          "nf__instance"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "client-type",
+        "ProducerParameterName": "type",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/searches/{searchId}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "searchId",
+            "pathToParameter": [
+              "searches"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "searches",
+        "PathContainerName": "searches",
+        "CandidateTypeNames": [
+          "search"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "searchId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/searches/{searchId}/complete",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "searchId",
+            "pathToParameter": [
+              "searches"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "searches",
+        "PathContainerName": "complete",
+        "CandidateTypeNames": [
+          "search"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "searchId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  }
+]

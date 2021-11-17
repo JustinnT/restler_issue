@@ -1,0 +1,23 @@
+{
+  "SwaggerSpecFilePath": [
+    "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/./TS29510_Nnrf_NFDiscovery.yaml"
+  ],
+  "GrammarOutputDirectoryPath": "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile",
+  "CustomDictionaryFilePath": "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile/defaultDict.json",
+  "IncludeOptionalParameters": true,
+  "UseHeaderExamples": true,
+  "UsePathExamples": false,
+  "UseQueryExamples": true,
+  "UseBodyExamples": true,
+  "UseAllExamplePayloads": false,
+  "DiscoverExamples": false,
+  "ExamplesDirectory": "",
+  "DataFuzzing": true,
+  "ReadOnlyFuzz": false,
+  "ResolveQueryDependencies": true,
+  "ResolveBodyDependencies": true,
+  "ResolveHeaderDependencies": false,
+  "UseRefreshableToken": true,
+  "AllowGetProducers": false,
+  "TrackFuzzedParameterNames": false
+}

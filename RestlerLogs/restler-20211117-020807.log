@@ -1,0 +1,12 @@
+Restler Information: 0 : Starting task Compile...
+    DateTime=2021-11-17T07:08:08.0633937Z
+Restler Information: 0 : Launching 'dotnet "/home/ubuntu/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile/config.json"'
+    DateTime=2021-11-17T07:08:08.2921156Z
+Restler Information: 0 : Process execution terminated in 00:00:02.4802211 with exit code 0x0: 'dotnet "/home/ubuntu/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile/config.json"'
+    DateTime=2021-11-17T07:08:10.7851881Z
+Restler Information: 0 : (11808) dotnet "/home/ubuntu/restler_bin/restler/../compiler/Restler.CompilerExe.dll" "/home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile/config.json" exited with code: 0
+    DateTime=2021-11-17T07:08:10.7908389Z
+Restler Information: 0 : Task Compile succeeded.
+    DateTime=2021-11-17T07:08:10.8055379Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2021-11-17T07:08:10.8109610Z

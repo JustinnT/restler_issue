@@ -1,0 +1,91 @@
+[11/17/2021 2:08:08 AM] Generating grammar...
+[11/17/2021 2:08:10 AM] Getting requests...
+[11/17/2021 2:08:10 AM] Getting dependencies...
+[11/17/2021 2:08:10 AM] Getting path consumers...
+[11/17/2021 2:08:10 AM] Getting query consumers...
+[11/17/2021 2:08:10 AM] Getting header consumers...
+[11/17/2021 2:08:10 AM] Getting body consumers...
+[11/17/2021 2:08:10 AM] Getting producers...
+[11/17/2021 2:08:10 AM] Done processing producers
+[11/17/2021 2:08:10 AM] Compute dependencies
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/searches/{searchId}/complete"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Second pass dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Done dependencies for request { endpoint = "/nf-instances"
+  xMsPath = None
+  method = Get }
+[11/17/2021 2:08:10 AM] Getting ordering constraints...
+[11/17/2021 2:08:10 AM] Dependency analysis completed.
+[11/17/2021 2:08:10 AM] Generating request primitives...
+Writing new dictionary to /home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile/dict.json
+[11/17/2021 2:08:10 AM] Generating python grammar...
+[11/17/2021 2:08:10 AM] Get requests
+[11/17/2021 2:08:10 AM] Done get requests
+[11/17/2021 2:08:10 AM] Done generating python grammar.
+Workflow completed.  See /home/ubuntu/5GC_build/5GC_code_generator/5GC_APIs/test_bug/Compile for REST-ler grammar.
